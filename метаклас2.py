@@ -8,3 +8,15 @@ class Main(metaclass=Create):
 
 obj = Main()
 print(obj.first_name)  # Выведет: Name
+
+
+*x,y = 1,2,3
+print(y)
+
+factorial = 4
+i = 1
+res = 1
+while i<factorial+1:
+    res*=i
+    i+=1
+print(res)

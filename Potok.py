@@ -1,4 +1,9 @@
 import threading
+import time
+
+for i in range(5):
+    time.sleep(0.5)
+    print(f"Hi {i}")
 
 def calc(n = 1):
     if n <= 1:

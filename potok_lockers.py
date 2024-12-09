@@ -15,5 +15,7 @@ lock = threading.Lock()
 
 for _ in range(5):
     thr = threading.Thread(target=some)
-    thr.start()
+    #thr.start()
     #thr.join()
+
+

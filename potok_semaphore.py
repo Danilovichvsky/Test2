@@ -44,3 +44,11 @@ for i in range(3):
 # Ожидаем завершения всех потоков
 for thread in threads:
     thread.join()
+
+
+x=5
+def ss():
+    return x+5
+
+r = ss()
+print(r)
